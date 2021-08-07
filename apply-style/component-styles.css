@@ -5,7 +5,7 @@
     font-family: "Roboto", serif;
 }
 
-.body-block {
+.body {
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     background-attachment: fixed;
 }
 
-.article-block {
+.article {
     width: 320px;
     min-height: 720px;
     background: #F7F7F7;
@@ -25,27 +25,27 @@
     border: lightgray 1px solid;
 }
 
-.article-header-block {
+.article__header {
     display: grid;
     grid-template-columns: 80% 20%;
     padding: 10px 10px;
 }
 
-.header-title, .header-duration {
+.article__header--title, .article__header--duration {
     display: block;
 }
 
-.header-title, .header-verified-block {
+.article__header--title, .article__header--verified {
     font-weight: 400;
 }
 
-.header-duration {
+.article__header--duration {
     font-size: 14px;
     font-weight: 300;
     margin-top: 10px;
 }
 
-.header-verified-block {
+.article__header__verified {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
@@ -53,16 +53,16 @@
     align-items: center;
 }
 
-.header-verified-img {
+.article__header__verified--img {
     width: 20px;
     height: 20px;
 }
 
-.article-banner-block {
+.article__banner {
     align-items: center;
 }
 
-.banner-link {
+.article__banner--link {
     position: relative;
     bottom: 50px;
     left: 20%;
@@ -75,7 +75,7 @@
     text-decoration: none;
 }
 
-.article-footer-block {
+.article__footer {
     font-weight: 200;
     padding: 0 10px 10px 10px;
 }
